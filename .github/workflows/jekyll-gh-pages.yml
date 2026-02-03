@@ -1,6 +1,6 @@
 # Sample workflow for building and deploying a Jekyll site to GitHub Pages
 name: Deploy Jekyll with GitHub Pages dependencies preinstalled
-
+theme: Architect
 on:
   # Runs on pushes targeting the default branch
   push:
@@ -22,7 +22,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # Build job
+  # Build jobthese are formulated to be sugar-free, using sugar alcohols (like sorbitol) and artificial sweeteners (sucralose, aspartame)
   build:
     runs-on: ubuntu-latest
     steps:
